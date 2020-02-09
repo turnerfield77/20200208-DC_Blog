@@ -1,0 +1,63 @@
+<!--
+    HTML Tags we might use:
+    - <img /> for the logo
+    - <button> for the follow button
+    - <a>, <ul> and <li> for the toolbars
+    - <hr> for divider line 
+    CSS we might use:
+    - text-align
+    - margin: 0 auto;
+    - float: left or display: inline-block
+
+    <header> - Will contain logo with DigitalCrafts text, as well as the about/follow/all posts list
+    <body> - 2 div's for title and date/follow button
+        <main> - <p> tags for each paragraph
+        <hr> divide main from footer
+        <footer> - contain subscribe/previous/next
+
+    Issues so far:
+        - I'll need to wrap the header in div element so it isn't included in the body's text alignment
+        - In the header, I need to align the unordered list to the right
+        - Padding needs to be corrected for the main paragraphs
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <title>Fake it 'til you Make it: A Developer's Story</title>
+    </head>
+    <body>
+        <header>
+            <div id="header-div">
+                <img src="images/logo.png" class="inline-header">
+                <h1 class="inline-header">DigitalCrafts Blog</h1>
+                <ul class="inline-header">
+                    <li class="inline-header">All Posts</li>
+                    <li class="inline-header">About</li>
+                    <li class="inline-header">Follow</li>
+                </ul>
+            </div>
+        </header>
+        <h1>Fake it 'til you Make it:<br>A Developer's Story</h1>
+        <div id="date-follow">
+            August 28, 2017<br>
+            <button id="follow-button">Follow @DigitalCrafts</button>
+        </div>
+        <p>
+            I'm writing a paragraph long enought to hopefully get a few lines in. I need to test this CSS and make sure that the text is working as expected.
+            I'll have to position it to the right but I really don't understand the position property in CSS. It kind of makes sense, but I feel that way about
+            the rest of CSS. Seems impossible so far.
+        </p>
+        <p>2nd Paragraph</p>
+        <p>3rd Paragraph</p>
+        <p>4th Paragraph</p>
+        <p>5th Paragraph</p>
+        <hr>
+        <footer>
+            <div>
+                @ 2017 DigitalCrafts, Inc.
+            </div>
+        </footer>
+    </body>
+</html>

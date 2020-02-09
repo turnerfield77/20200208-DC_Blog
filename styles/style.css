@@ -1,0 +1,36 @@
+html {
+    padding: 5% 15% 2% 15%;
+    background-color: #F5F5F0;
+}
+
+header {
+    font-family: serif;
+}
+
+.inline-header {
+    display: inline-block;
+    font-style: serif;
+}
+
+img {
+    padding-right: 10px;
+}
+
+body:not(header) {
+    text-align: center;
+}
+
+body p {
+    text-align: left;
+}
+
+#follow-button {
+    color: white;
+    background-color: cadetblue;
+    padding: 5px 15px;
+}
+
+#date-follow {
+    text-align: center;
+    color: #A8A8A5;
+}
