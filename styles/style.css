@@ -1,3 +1,5 @@
+/* Header */
+
 html {
     padding: 5% 15% 2% 15%;
     background-color: #F5F5F0;
@@ -5,11 +7,6 @@ html {
 
 #header-div {
     position: relative;
-    border: 5px solid red;
-}
-
-header {
-    font-family: serif;
 }
 
 .inline-header {
@@ -18,25 +15,63 @@ header {
 }
 
 img {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#info-list {
+    display: inline-block;
     position: absolute;
-    left: 0;
+    right: 10px;
+    top: 20px; 
 }
 
-body:not(header) {
+#info-list li {
+    padding-left: 10px;
+}
+
+#logo {
+    display: inline-block;
+}
+
+#date-follow {
     text-align: center;
+    color: #A8A8A5;
 }
 
-body p {
-    text-align: left;
+
+/* Main */
+
+#title {
+    text-align: center;
 }
 
 #follow-button {
     color: white;
     background-color: cadetblue;
     padding: 5px 15px;
+    border-radius: 4px;
 }
 
-#date-follow {
+#paragraphs {
+    text-align: left;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+#nav-list {
+    padding-left: 0;
+}
+
+#nav-list li {
+    color: #A8A8A5;
+    padding-right: 10px;
+}
+
+
+/* Footer */
+
+footer div {
     text-align: center;
     color: #A8A8A5;
 }
