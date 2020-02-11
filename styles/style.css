@@ -3,6 +3,11 @@ html {
     background-color: #F5F5F0;
 }
 
+#header-div {
+    position: relative;
+    border: 5px solid red;
+}
+
 header {
     font-family: serif;
 }
@@ -13,7 +18,8 @@ header {
 }
 
 img {
-    padding-right: 10px;
+    position: absolute;
+    left: 0;
 }
 
 body:not(header) {
